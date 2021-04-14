@@ -1,0 +1,21 @@
+{
+  "name": "back-end - Casa onile; casa.cruda.com",
+  "version": "1.0.0",
+  "description": "Back-end, do projeto casa online",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.12.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+    },
+  "scripts": {
+    "test": "nodemon app",
+    "start": "node app"
+  },
+  "author": "Cruda (Pedro Kussy)",
+  "license": "ISC"
+}
